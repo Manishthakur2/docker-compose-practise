@@ -8,7 +8,7 @@ DB_PASSWORD = os.getenv("DB_PASSWORD", "not set")
 
 @app.route('/')
 def home():
-    return f"App is now changed and running! DB_HOST: {DB_HOST}"
+    return f"App is running V2! DB_HOST: {DB_HOST}"
 
 @app.route('/health')
 def health():
